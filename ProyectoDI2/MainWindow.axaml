@@ -15,10 +15,10 @@
         </Style>
     </Window.Styles>
     <RelativePanel>
-        <Button Width="90" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button Width="120" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid>
-                <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo.png" Width="100" Height="40" Margin="0,0,5,0" />
-                <TextBlock Text="Visualizar" VerticalAlignment="Center" Foreground="Azure" FontSize="12" Margin="6,0,0,0"/>
+                <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo.png" Width="120" Height="60" Margin="0,0,5,0" />
+                <TextBlock Text="Visualizar" VerticalAlignment="Center" Foreground="Azure" FontSize="16" Margin="11,0,0,0"/>
             </Grid>
         </Button>
     </RelativePanel>
