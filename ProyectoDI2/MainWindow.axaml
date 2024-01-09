@@ -16,20 +16,59 @@
         </Style>
     </Window.Styles>
     <RelativePanel>
-        <Button Width="180" Height="70" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="300,30,0,0">
-            <Grid>
-                <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo.png" Width="200" Height="80" Stretch="Fill" Margin="0,0,5,0" />
-                <TextBlock Text="Ver Planetas" VerticalAlignment="Center" Foreground="Azure" FontSize="15" FontFamily="Consolas" Margin="27,5,0,0"/>
-            </Grid>
-        </Button>
-        <Button Width="180" Height="70" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="550,30,0,0">
-            <Grid>
-                <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo.png" Width="200" Height="80" Stretch="Fill" Margin="0,0,5,0" />
-                <TextBlock Text="Agregar Planetas" VerticalAlignment="Center" Foreground="Azure" FontSize="15" FontFamily="Consolas" Margin="12,4,0,0"/>
-            </Grid>
-        </Button>
-        <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\starwars_logo.png" Width="200" Height="140" Margin="15,10,0,0" />
-        <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\soldados-gif.gif" Width="630" Height="350" Stretch="Fill" Margin="120,160,0,0" />
+        <TabControl Margin="0,30,0,0">
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel>
+                        <TextBlock Text="Ver Planetas" HorizontalAlignment="Center" FontSize="20" FontFamily="Consolas" Foreground="White"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <RelativePanel>
+                    <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\dark-space-visualizar.jpg" Width="630" Height="350" Stretch="Fill" Margin="120,60,0,0" />
+                    <TextBlock Text="Nombre:" Margin="430,150,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Name="txtNombre" Text="planeta" Margin="500,150,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBlock>
+                    <TextBlock Text="Habitantes:" Margin="404,185,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Name="txtHabitantes" Text="999999" Margin="500,185,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBlock>
+                    <TextBlock Text="Imperialista:" Margin="392,216,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Name="txtImperialista" Text="Si" Margin="500,216,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBlock>
+                    <Button Name="btnAnterior" Width="60" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="390,260,0,0">
+                        <Grid>
+                            <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\backarrow.png" Width="60" Height="40" Stretch="Fill" Margin="0,0,5,0" />
+                        </Grid>
+                    </Button>
+                    <Button Name="btnSiguiente" Width="60" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="490,260,0,0">
+                        <Grid>
+                            <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\backarrowR.png" Width="60" Height="40" Stretch="Fill" Margin="0,0,5,0" />
+                        </Grid>
+                    </Button>
+                    <TextBox Margin="600,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <TextBox Margin="600,174,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <TextBox Margin="600,209,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <Button Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="587,260,0,0">
+                        <Grid>
+                            <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo 2.png" Width="110" Height="50" Stretch="Fill" Margin="0,0,5,0" />
+                            <TextBlock Text="Modificar" VerticalAlignment="Center" Foreground="Azure" FontSize="13" FontFamily="Consolas" Margin="15,4,0,0"/>
+                        </Grid>
+                    </Button>
+                    <TextBlock Name="lblActual" Text="X" Margin="300,370,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Text="/" Margin="315,370,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Name="lblTotal" Text="X" Margin="330,370,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+
+                </RelativePanel>
+            </TabItem>
+            <TabItem Margin="50,0,0,0">
+                <TabItem.Header>
+                    <StackPanel>
+                        <TextBlock Text="Agregar Planetas" HorizontalAlignment="Center" FontSize="20" FontFamily="Consolas" Foreground="White"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <RelativePanel>
+                    <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\xwing_green_background.jpg" Width="630" Height="350" Stretch="Fill" Margin="120,60,0,0" />
+                    
+                </RelativePanel>
+            </TabItem>
+        </TabControl>
+        <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\starwars_logo.png" Width="200" Height="140" Margin="680,-10,0,0" />
         <Button Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="780,460,0,0">
             <Grid>
                 <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo 2.png" Width="110" Height="50" Stretch="Fill" Margin="0,0,5,0" />
