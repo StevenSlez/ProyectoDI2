@@ -31,20 +31,20 @@
                     <TextBlock Name="txtHabitantes" Text="999999" Margin="500,185,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBlock>
                     <TextBlock Text="Imperialista:" Margin="392,216,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
                     <TextBlock Name="txtImperialista" Text="Si" Margin="500,216,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBlock>
-                    <Button Name="btnAnterior" Width="60" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="390,260,0,0">
+                    <Button Name="btnAnterior" Click="btnAnterior_Click" Width="60" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="390,260,0,0">
                         <Grid>
                             <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\backarrow.png" Width="60" Height="40" Stretch="Fill" Margin="0,0,5,0" />
                         </Grid>
                     </Button>
-                    <Button Name="btnSiguiente" Width="60" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="490,260,0,0">
+                    <Button Name="btnSiguiente" Click="btnSiguiente_Click" Width="60" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="490,260,0,0">
                         <Grid>
                             <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\backarrowR.png" Width="60" Height="40" Stretch="Fill" Margin="0,0,5,0" />
                         </Grid>
                     </Button>
-                    <TextBox Margin="600,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                    <TextBox Margin="600,174,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                    <TextBox Margin="600,209,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                    <Button Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="587,260,0,0">
+                    <TextBox Name="txtModNombre" Margin="600,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <TextBox Name="txtModHab" Margin="600,174,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <TextBox Name="txtModImp" Margin="600,209,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <Button Click="btnModificar_Click" Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="587,260,0,0">
                         <Grid>
                             <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo 2.png" Width="110" Height="50" Stretch="Fill" Margin="0,0,5,0" />
                             <TextBlock Text="Modificar" VerticalAlignment="Center" Foreground="Azure" FontSize="13" FontFamily="Consolas" Margin="15,4,0,0"/>
@@ -53,7 +53,16 @@
                     <TextBlock Name="lblActual" Text="X" Margin="300,370,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
                     <TextBlock Text="/" Margin="315,370,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
                     <TextBlock Name="lblTotal" Text="X" Margin="330,370,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
-
+                    <Grid>
+                        <Image Name="pbPlaneta" Width="150" Height="150" Stretch="Fill" Margin="180,90,5,0" />
+                    </Grid>
+                    <Button Click="btnEliminar_Click" Width="120" Height="120" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="160,250,0,0">
+                        <Grid>
+                            <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\Death-Star-1st.png" Width="110" Height="110" Stretch="Fill" Margin="0,0,5,0" />
+                            <TextBlock VerticalAlignment="Center" Foreground="Azure" FontSize="13" FontFamily="Consolas" Margin="15,4,0,0"/>
+                        </Grid>
+                    </Button>
+                    
                 </RelativePanel>
             </TabItem>
             <TabItem Margin="50,0,0,0">
@@ -64,6 +73,27 @@
                 </TabItem.Header>
                 <RelativePanel>
                     <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\xwing_green_background.jpg" Width="630" Height="350" Stretch="Fill" Margin="120,60,0,0" />
+                    <TextBlock Text="Nombre:" Margin="430,150,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Text="Habitantes:" Margin="404,185,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBlock Text="Imperialista:" Margin="392,216,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
+                    <TextBox Name="txtNombreNew" Margin="500,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <TextBox Name="txtHabNew" Margin="500,175,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <TextBox Name="txtImpNew" Margin="500,210,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                    <Button Click="btnRegistrar" Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="440,330,0,0">
+                        <Grid>
+                            <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo.png" Width="110" Height="50" Stretch="Fill" Margin="0,0,5,0" />
+                            <TextBlock Text="Registrar" VerticalAlignment="Center" Foreground="Azure" FontSize="13" FontFamily="Consolas" Margin="17,4,0,0"/>
+                        </Grid>
+                    </Button>
+                    <Grid>
+                        <Image Name="pbTik" Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\tik.png" Width="40" Height="25" Stretch="Fill" Margin="555,270,0,0" />
+                    </Grid>
+                    <Button Click="btnFoto_Click" Width="140" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="410,265,0,0">
+                        <Grid>
+                            <Image Source="C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\Imagenes\boton fondo 2.png" Width="140" Height="50" Stretch="Fill" Margin="0,0,5,0" />
+                            <TextBlock Text="Insertar Imagen" VerticalAlignment="Center" Foreground="Azure" FontSize="13" FontFamily="Consolas" Margin="5,4,0,0"/>
+                        </Grid>
+                    </Button>
                     
                 </RelativePanel>
             </TabItem>
