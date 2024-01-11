@@ -17,4 +17,96 @@
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
         <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.6"/>
     </ItemGroup>
+
+
+    <ItemGroup>
+      <None Remove="Imagenes\backarrowR.png" />
+      <AvaloniaResource Include="Imagenes\backarrowR.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\backarrow.png" />
+      <AvaloniaResource Include="Imagenes\backarrow.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\boton fondo.png" />
+      <AvaloniaResource Include="Imagenes\boton fondo.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\boton fondo 2.png" />
+      <AvaloniaResource Include="Imagenes\boton fondo 2.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\dark-space-visualizar.jpg" />
+      <AvaloniaResource Include="Imagenes\dark-space-visualizar.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\Death-Star-1st.png" />
+      <AvaloniaResource Include="Imagenes\Death-Star-1st.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\errorwindow.jpg" />
+      <AvaloniaResource Include="Imagenes\errorwindow.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\starwars_logo.png" />
+      <AvaloniaResource Include="Imagenes\starwars_logo.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\tik.png" />
+      <AvaloniaResource Include="Imagenes\tik.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\universe_background.jpeg" />
+      <AvaloniaResource Include="Imagenes\universe_background.jpeg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\xwing_green_background.jpg" />
+      <AvaloniaResource Include="Imagenes\xwing_green_background.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\mandalore_planet.png" />
+      <AvaloniaResource Include="Imagenes\mandalore_planet.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\casco.png" />
+      <AvaloniaResource Include="Imagenes\casco.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\soldados-gif.gif" />
+      <AvaloniaResource Include="Imagenes\soldados-gif.gif">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\blaster.wav" />
+      <AvaloniaResource Include="Imagenes\blaster.wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\StarWarsTheme.wav" />
+      <AvaloniaResource Include="Imagenes\StarWarsTheme.wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\tatooine_planet.png" />
+      <AvaloniaResource Include="Imagenes\tatooine_planet.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\kashyyyk_planet.png" />
+      <AvaloniaResource Include="Imagenes\kashyyyk_planet.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\coruscant_planet.png" />
+      <AvaloniaResource Include="Imagenes\coruscant_planet.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\hoth_planet.png" />
+      <AvaloniaResource Include="Imagenes\hoth_planet.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\casco.ico" />
+      <AvaloniaResource Include="Imagenes\casco.ico">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Remove="Imagenes\bespin_planet.png" />
+      <AvaloniaResource Include="Imagenes\bespin_planet.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+    </ItemGroup>
 </Project>
