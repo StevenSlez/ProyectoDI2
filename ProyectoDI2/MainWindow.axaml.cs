@@ -131,7 +131,7 @@ public partial class MainWindow : Window
         else //si hay planetas, muestro el que ubique el contador (num)
         {
             txtNombre.Text = planetas[num].Nombre;
-            txtHabitantes.Text = planetas[num].Habitantes.ToString() + " K";
+            txtHabitantes.Text = planetas[num].Habitantes + " K";
             if (planetas[num].Imperialista.Equals(true))
             {
                 txtImperialista.Text = "Si";
@@ -265,7 +265,7 @@ public partial class MainWindow : Window
         if (!pbTik.IsVisible || string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtHabitantes.Text) || string.IsNullOrEmpty(txtImperialista.Text))
         {
             PanelMensaje.IsVisible = true;
-            ErrorText.Text = "Joven padawan, no puedes dejar ningún campo vacío.\n(Ni la imagen sin seleccionar)";
+            ErrorText.Text = "Joven padawan, no puedes dejar \nningún campo vacío.\n(Ni la imagen sin seleccionar)";
         }
         else //si están todos los datos correctos, creo el planeta nuevo
         {
@@ -330,14 +330,14 @@ public partial class MainWindow : Window
 
                 PanelMensaje.IsVisible = true;
                 ErrorText.Text = "Datos cargados correctamente \ndesde el Holocrón. \nQue no te lo quite los Sith!";
-                
-                mostrarDatos(); //actualizo los datos
             }
         }
         catch (IOException ex)
         {
             Console.WriteLine("Error al leer los datos: " + ex.Message);
         }
+        
+        mostrarDatos(); //actualizo los datos
     }
     
     private Planeta ParsePlanetaFromString(string line)

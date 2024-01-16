@@ -42,9 +42,9 @@
                                 <Image Source="Imagenes/backarrowR.png" Width="60" Height="40" Stretch="Fill" Margin="0,0,5,0" />
                             </Grid>
                         </Button>
-                        <TextBox Name="txtModNombre" Margin="600,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                        <TextBox Name="txtModHab" Margin="600,174,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                        <TextBox Name="txtModImp" Margin="600,209,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                        <TextBox Name="txtModNombre" Margin="600,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="DimGray" Background="Azure"></TextBox>
+                        <TextBox Name="txtModHab" Margin="600,174,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="DimGray" Background="Azure"></TextBox>
+                        <TextBox Name="txtModImp" Margin="600,209,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="DimGray" Background="Azure"></TextBox>
                         <Button Click="btnModificar_Click" Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="587,260,0,0">
                             <Grid>
                                 <Image Source="Imagenes/boton fondo 2.png" Width="110" Height="50" Stretch="Fill" Margin="0,0,5,0" />
@@ -90,9 +90,9 @@
                         <TextBlock Text="Nombre:" Margin="430,150,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
                         <TextBlock Text="Habitantes:" Margin="404,185,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
                         <TextBlock Text="Imperialista:" Margin="392,216,0,0" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"/>
-                        <TextBox Name="txtNombreNew" Margin="500,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                        <TextBox Name="txtHabNew" Margin="500,175,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
-                        <TextBox Name="txtImpNew" Margin="500,210,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="White"></TextBox>
+                        <TextBox Name="txtNombreNew" Margin="500,140,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="DimGray" Background="Azure"></TextBox>
+                        <TextBox Name="txtHabNew" Margin="500,175,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="DimGray" Background="Azure"></TextBox>
+                        <TextBox Name="txtImpNew" Margin="500,210,0,0" Width="90" HorizontalAlignment="Center" FontSize="12" FontFamily="Consolas" Foreground="DimGray" Background="Azure"></TextBox>
                         <Button Click="btnRegistrar" Width="120" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="440,330,0,0">
                             <Grid>
                                 <Image Source="Imagenes/boton fondo.png" Width="110" Height="50" Stretch="Fill" Margin="0,0,5,0" />
