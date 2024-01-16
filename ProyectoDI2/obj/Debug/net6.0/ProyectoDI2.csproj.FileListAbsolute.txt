@@ -119,6 +119,7 @@ C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.AssemblyInfoInputs.cache
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.AssemblyInfo.cs
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.csproj.CoreCompileInputs.cache
+C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.sourcelink.json
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\Avalonia\references
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\Avalonia\original.dll
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\Avalonia\original.pdb
@@ -129,4 +130,3 @@ C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.csproj.CopyComplete
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.genruntimeconfig.cache
 C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ref\ProyectoDI2.dll
-C:\Users\sleza\RiderProjects\ProyectoDI2\ProyectoDI2\obj\Debug\net6.0\ProyectoDI2.sourcelink.json

@@ -143,7 +143,7 @@ public partial class MainWindow : Window
             MostrarImagen(planetas[num].Imagen);
 
             lblActual.Text = "" + (num + 1);
-            lblTotal.Text = "" + planetas.Count;
+            lblTotal.Text = planetas.Count.ToString("D3");
         }
     }
     
